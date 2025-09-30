@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Búsqueda Web + Chat RAG",
+    "description": "Chat con PDFs mejorado con búsqueda web en tiempo real para respuestas siempre actualizadas",
+    "complexity": "Intermediate",
+    "projectCategory": "AI Tools",
+    "category": "nlp",
+    "github": "https://github.com/irivelez/web-search-rag-chat",
+    "demo": ""
+  },
+  {
+    "id": 2,
+    "title": "Optimizador de Rutas de Entrega en Bogotá",
+    "description": "Optimiza rutas de entrega multi-camión en Bogotá usando algoritmos de clustering y TSP",
+    "complexity": "Advanced",
+    "projectCategory": "Logística y Mapas",
+    "category": "logistics",
+    "github": "https://github.com/irivelez/route_optimization",
+    "demo": ""
+  },
+  {
+    "id": 3,
+    "title": "Equipo de Analistas IA de Acciones",
+    "description": "Sistema multi-agente de IA que analiza acciones usando registros SEC, noticias y datos de mercado",
+    "complexity": "Advanced",
+    "projectCategory": "Finanzas / Agentes IA",
+    "category": "finance",
+    "github": "https://github.com/irivelez/crewAI-examples/tree/main/crews/stock_analysis",
+    "demo": ""
+  }
+]

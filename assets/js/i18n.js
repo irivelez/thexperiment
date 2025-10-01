@@ -4,7 +4,7 @@ class I18n {
   constructor() {
     this.currentLanguage = this.getStoredLanguage() || this.detectLanguage();
     this.translations = {};
-    this.fallbackLanguage = 'en';
+    this.fallbackLanguage = 'es';
     this.init();
   }
 
@@ -12,7 +12,7 @@ class I18n {
   detectLanguage() {
     const browserLang = navigator.language || navigator.userLanguage;
     const langCode = browserLang.split('-')[0];
-    return ['en', 'es'].includes(langCode) ? langCode : 'en';
+    return ['en', 'es'].includes(langCode) ? langCode : 'es';
   }
 
   getStoredLanguage() {

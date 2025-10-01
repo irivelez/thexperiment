@@ -38,8 +38,7 @@ class I18n {
           logo: "AI Portfolio",
           home: "Home",
           about: "About",
-          projects: "Projects",
-          contact: "Contact"
+          projects: "Projects"
         },
 
         // Hero section
@@ -122,8 +121,7 @@ class I18n {
           logo: "Portfolio IA",
           home: "Inicio",
           about: "Acerca",
-          projects: "Proyectos",
-          contact: "Contacto"
+          projects: "Proyectos"
         },
 
         // Hero section

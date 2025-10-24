@@ -2,10 +2,11 @@
 
 /* thexperiment - Bold Minimalist Design System */
 :root {
-  /* Experimental Color Palette */
-  --accent-electric: #007AFF;
-  --accent-neon: #00FF88;
-  --accent-coral: #FF6B6B;
+  /* Experimental Color Palette - Cyan Edition */
+  --accent-cyan: #00d4ff;
+  --accent-blue: #0099ff;
+  --accent-pink: #ff0080;
+  --accent-gold: #ffd700;
 
   /* Minimalist Foundation - Airy White Background */
   --pure-white: #FFFFFF;
@@ -156,14 +157,14 @@ p {
 }
 
 a {
-  color: var(--accent-electric);
+  color: var(--accent-cyan);
   text-decoration: none;
   transition: all var(--transition-quick);
   font-weight: var(--font-weight-medium);
 }
 
 a:hover {
-  color: var(--accent-neon);
+  color: var(--accent-blue);
   transform: translateY(-1px);
 }
 
@@ -242,17 +243,17 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: var(--accent-neon);
+  background-color: var(--accent-cyan);
   color: var(--deep-black);
   box-shadow: 4px 4px 0 var(--deep-black);
   border: 3px solid var(--deep-black);
 }
 
 .btn-primary:hover {
-  background-color: var(--accent-electric);
-  color: var(--pure-white);
+  background-color: var(--deep-black);
+  color: var(--accent-cyan);
   transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--deep-black);
+  box-shadow: 6px 6px 0 var(--accent-cyan);
 }
 
 .btn-secondary {
@@ -348,7 +349,7 @@ a:hover {
   left: 0;
   right: 0;
   height: 3px;
-  background-color: var(--accent-neon);
+  background-color: var(--accent-cyan);
 }
 
 .nav-actions {
@@ -449,7 +450,7 @@ a:hover {
 .shape-1 {
   width: 200px;
   height: 200px;
-  background-color: var(--accent-electric);
+  background-color: var(--accent-blue);
   top: 15%;
   left: 10%;
   animation-delay: -2s;
@@ -458,7 +459,7 @@ a:hover {
 .shape-2 {
   width: 150px;
   height: 150px;
-  background-color: var(--accent-neon);
+  background-color: var(--accent-cyan);
   top: 70%;
   right: 15%;
   border-radius: var(--radius-full);
@@ -468,7 +469,7 @@ a:hover {
 .shape-3 {
   width: 120px;
   height: 120px;
-  background-color: var(--accent-coral);
+  background-color: var(--accent-pink);
   top: 40%;
   right: 25%;
   animation-delay: -1s;
@@ -477,7 +478,7 @@ a:hover {
 .shape-4 {
   width: 180px;
   height: 180px;
-  background-color: var(--accent-electric);
+  background-color: var(--accent-gold);
   bottom: 20%;
   left: 20%;
   border-radius: var(--radius-full);
@@ -511,7 +512,7 @@ a:hover {
   left: 0;
   width: 240px;
   height: 10px;
-  background-color: var(--accent-neon);
+  background-color: var(--accent-cyan);
   animation: slideIn 0.6s ease-out 1s forwards;
   transform-origin: left;
   transform: scaleX(0);
@@ -671,15 +672,15 @@ a:hover {
 }
 
 .stat-item:nth-child(1) {
-  border-top: 16px solid var(--accent-coral);
+  border-top: 16px solid var(--accent-pink);
 }
 
 .stat-item:nth-child(2) {
-  border-top: 16px solid var(--accent-electric);
+  border-top: 16px solid var(--accent-blue);
 }
 
 .stat-item:nth-child(3) {
-  border-top: 16px solid var(--accent-neon);
+  border-top: 16px solid var(--accent-cyan);
 }
 
 .stat-item:hover {
@@ -687,15 +688,15 @@ a:hover {
 }
 
 .stat-item:nth-child(1):hover {
-  box-shadow: 8px 8px 0 var(--accent-coral);
+  box-shadow: 8px 8px 0 var(--accent-pink);
 }
 
 .stat-item:nth-child(2):hover {
-  box-shadow: 8px 8px 0 var(--accent-electric);
+  box-shadow: 8px 8px 0 var(--accent-blue);
 }
 
 .stat-item:nth-child(3):hover {
-  box-shadow: 8px 8px 0 var(--accent-neon);
+  box-shadow: 8px 8px 0 var(--accent-cyan);
 }
 
 .stat-number {
@@ -733,7 +734,7 @@ a:hover {
 .experiments-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
   max-width: var(--container-main);
   margin: 0 auto;
 }
@@ -750,20 +751,28 @@ a:hover {
   border: 3px solid var(--deep-black);
   display: flex;
   flex-direction: column;
-  min-height: 340px;
+  min-height: 280px;
 }
 
 /* Equal Treatment - BOLD Color Borders */
 .experiment-card:nth-child(1) {
-  border-color: var(--accent-coral);
+  border-color: var(--accent-cyan);
 }
 
 .experiment-card:nth-child(2) {
-  border-color: var(--accent-electric);
+  border-color: var(--accent-blue);
 }
 
 .experiment-card:nth-child(3) {
-  border-color: var(--accent-neon);
+  border-color: var(--accent-pink);
+}
+
+.experiment-card:nth-child(4) {
+  border-color: var(--accent-gold);
+}
+
+.experiment-card:nth-child(5) {
+  border-color: var(--accent-cyan);
 }
 
 .experiment-card:hover {
@@ -772,20 +781,28 @@ a:hover {
 }
 
 .experiment-card:nth-child(1):hover {
-  box-shadow: 8px 8px 0 var(--accent-coral);
+  box-shadow: 8px 8px 0 var(--accent-cyan);
 }
 
 .experiment-card:nth-child(2):hover {
-  box-shadow: 8px 8px 0 var(--accent-electric);
+  box-shadow: 8px 8px 0 var(--accent-blue);
 }
 
 .experiment-card:nth-child(3):hover {
-  box-shadow: 8px 8px 0 var(--accent-neon);
+  box-shadow: 8px 8px 0 var(--accent-pink);
+}
+
+.experiment-card:nth-child(4):hover {
+  box-shadow: 8px 8px 0 var(--accent-gold);
+}
+
+.experiment-card:nth-child(5):hover {
+  box-shadow: 8px 8px 0 var(--accent-cyan);
 }
 
 .card-doodle {
   position: relative;
-  height: 120px;
+  height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -797,15 +814,23 @@ a:hover {
 
 /* FULL SATURATION Color Blocks - Equal Height */
 .experiment-card:nth-child(1) .card-doodle {
-  background: var(--accent-coral);
+  background: var(--accent-cyan);
 }
 
 .experiment-card:nth-child(2) .card-doodle {
-  background: var(--accent-electric);
+  background: var(--accent-blue);
 }
 
 .experiment-card:nth-child(3) .card-doodle {
-  background: var(--accent-neon);
+  background: var(--accent-pink);
+}
+
+.experiment-card:nth-child(4) .card-doodle {
+  background: var(--accent-gold);
+}
+
+.experiment-card:nth-child(5) .card-doodle {
+  background: var(--accent-cyan);
 }
 
 /* Remove SVG icons entirely */
@@ -814,7 +839,7 @@ a:hover {
 }
 
 .card-content {
-  padding: 2.5rem;
+  padding: 1.5rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -822,39 +847,39 @@ a:hover {
 }
 
 .card-title {
-  font-size: var(--font-size-h3);
-  font-weight: var(--font-weight-black);
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
   color: var(--deep-black);
-  margin-bottom: 1rem;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 
 .card-description {
   color: var(--text-gray);
-  margin-bottom: 1rem;
-  line-height: 1.7;
-  font-size: 0.9375rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  font-size: 0.875rem;
   flex: 1;
 }
 
 .card-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-xs);
-  margin-bottom: 1rem;
+  gap: 0.375rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Base tag styling */
 .complexity-tag,
 .category-tag {
-  padding: var(--space-xs) var(--space-sm);
-  border-radius: var(--radius-md);
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-medium);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.6875rem;
+  font-weight: var(--font-weight-semibold);
   border: 1px solid;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 
 /* Complexity Tags */
@@ -917,7 +942,7 @@ a:hover {
 
 .card-actions {
   display: flex;
-  gap: var(--space-md);
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
@@ -925,63 +950,64 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: var(--space-sm);
-  padding: var(--space-md) var(--space-xl);
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
   border-radius: var(--radius-sm);
-  font-size: 0.9rem;
-  font-weight: var(--font-weight-black);
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-bold);
   text-decoration: none;
   transition: all var(--transition-smooth);
-  min-width: 140px;
+  min-width: 100px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 
 .card-link.primary {
   background-color: var(--deep-black);
   color: var(--pure-white);
-  border: 3px solid var(--deep-black);
+  border: 2px solid var(--deep-black);
 }
 
 .card-link.primary:hover {
-  background-color: var(--pure-white);
+  background-color: var(--accent-cyan);
   color: var(--deep-black);
-  transform: translateY(-3px);
-  box-shadow: 4px 4px 0 var(--deep-black);
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0 var(--deep-black);
 }
 
 .card-link:not(.primary) {
   background-color: var(--pure-white);
   color: var(--deep-black);
-  border: 3px solid var(--deep-black);
+  border: 2px solid var(--deep-black);
 }
 
 .card-link:not(.primary):hover {
-  background-color: var(--deep-black);
-  color: var(--pure-white);
-  transform: translateY(-3px);
-  box-shadow: 4px 4px 0 var(--deep-black);
+  background-color: var(--accent-cyan);
+  color: var(--deep-black);
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0 var(--deep-black);
 }
 
 /* Doodle Category Colors */
 .doodle-nlp {
-  color: var(--accent-coral);
-  fill: var(--accent-coral);
+  color: var(--accent-pink);
+  fill: var(--accent-pink);
 }
 
 .doodle-cv {
-  color: var(--accent-electric);
-  fill: var(--accent-electric);
+  color: var(--accent-blue);
+  fill: var(--accent-blue);
 }
 
 .doodle-ml {
-  color: var(--accent-neon);
-  fill: var(--accent-neon);
+  color: var(--accent-cyan);
+  fill: var(--accent-cyan);
 }
 
 .doodle-webapp {
-  color: var(--accent-electric);
-  fill: var(--accent-electric);
+  color: var(--accent-gold);
+  fill: var(--accent-gold);
 }
 
 /* Contact Section - Single CTA Focus */
@@ -1020,7 +1046,7 @@ a:hover {
   padding: var(--space-xl) 0;
   background-color: var(--deep-black);
   color: var(--pure-white);
-  border-top: 3px solid var(--accent-neon);
+  border-top: 3px solid var(--accent-cyan);
 }
 
 .footer-content {
@@ -1114,15 +1140,15 @@ a:hover {
   /* 2 columns on tablet */
   .experiments-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1.25rem;
   }
 
   .experiment-card {
-    min-height: 380px;
+    min-height: 300px;
   }
 
   .card-doodle {
-    height: 150px;
+    height: 80px;
   }
 }
 
@@ -1208,19 +1234,19 @@ a:hover {
   /* Single column stack on mobile */
   .experiments-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.25rem;
   }
 
   .experiment-card {
-    min-height: 360px;
+    min-height: 280px;
   }
 
   .card-doodle {
-    height: 140px;
+    height: 80px;
   }
 
   .card-content {
-    padding: var(--space-2xl) var(--space-lg);
+    padding: 1.25rem;
   }
 
   .card-actions {
@@ -1253,12 +1279,12 @@ a:hover {
 }
 
 *:focus-visible {
-  outline: 3px solid var(--accent-electric);
+  outline: 3px solid var(--accent-cyan);
   outline-offset: 3px;
 }
 
 .btn:focus-visible {
-  outline: 3px solid var(--accent-electric);
+  outline: 3px solid var(--accent-cyan);
   outline-offset: 3px;
 }
 
@@ -1269,7 +1295,7 @@ a:hover {
 
 .contact-link:focus-visible,
 .experiment-card:focus-within {
-  outline: 3px solid var(--accent-electric);
+  outline: 3px solid var(--accent-cyan);
   outline-offset: 3px;
 }
 
@@ -1401,23 +1427,23 @@ a:hover {
 
   .experiments-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .experiment-card {
-    min-height: 340px;
+    min-height: 260px;
   }
 
   .card-doodle {
-    height: 120px;
+    height: 70px;
   }
 
   .card-content {
-    padding: var(--space-lg);
+    padding: 1rem;
   }
 
   .card-title {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
   }
 
   .about-stats {

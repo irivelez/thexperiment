@@ -28,5 +28,25 @@
     "category": "finance",
     "github": "https://github.com/irivelez/crewAI-examples/tree/main/crews/stock_analysis",
     "demo": ""
+  },
+  {
+    "id": 4,
+    "title": "Analista de Mercado Cervecero LATAM",
+    "description": "Sistema multi-agente de IA que automatiza investigación de mercado para la industria cervecera en América Latina",
+    "complexity": "Advanced",
+    "projectCategory": "AI Tools / Investigación de Mercado",
+    "category": "data",
+    "github": "https://github.com/irivelez/BeerMarket_Analyst",
+    "demo": ""
+  },
+  {
+    "id": 5,
+    "title": "Sistema de Rastreo de Embarcaciones LATAM",
+    "description": "Plataforma de rastreo marítimo en tiempo real que monitorea 300-800+ embarcaciones en aguas latinoamericanas usando datos AIS",
+    "complexity": "Intermediate",
+    "projectCategory": "Logística y Marítimo",
+    "category": "logistics",
+    "github": "https://github.com/irivelez/tracking_system",
+    "demo": ""
   }
 ]

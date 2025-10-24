@@ -28,5 +28,25 @@
     "category": "finance",
     "github": "https://github.com/irivelez/crewAI-examples/tree/main/crews/stock_analysis",
     "demo": ""
+  },
+  {
+    "id": 4,
+    "title": "LATAM Beer Market Analyst",
+    "description": "Multi-agent AI system that automates market research for the beer industry across Latin America",
+    "complexity": "Advanced",
+    "projectCategory": "AI Tools / Market Research",
+    "category": "data",
+    "github": "https://github.com/irivelez/BeerMarket_Analyst",
+    "demo": ""
+  },
+  {
+    "id": 5,
+    "title": "LATAM Vessel Tracking System",
+    "description": "Real-time maritime vessel tracking platform monitoring 300-800+ ships across Latin American waters using live AIS data",
+    "complexity": "Intermediate",
+    "projectCategory": "Logistics & Maritime",
+    "category": "logistics",
+    "github": "https://github.com/irivelez/tracking_system",
+    "demo": ""
   }
 ]

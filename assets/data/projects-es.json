@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "title": "Sistema de Rastreo de Embarcaciones LATAM",
+    "title": "Sistema de Rastreo de Embarcaciones LATAM v2",
     "description": "Plataforma de rastreo marítimo en tiempo real que monitorea 300-800+ embarcaciones en aguas latinoamericanas usando datos AIS",
     "complexity": "Intermediate",
     "projectCategory": "Logística y Marítimo",

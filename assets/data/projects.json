@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "title": "LATAM Vessel Tracking System",
+    "title": "LATAM Vessel Tracking System v2",
     "description": "Real-time maritime vessel tracking platform monitoring 300-800+ ships across Latin American waters using live AIS data",
     "complexity": "Intermediate",
     "projectCategory": "Logistics & Maritime",

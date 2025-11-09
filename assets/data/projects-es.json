@@ -51,6 +51,16 @@
   },
   {
     "id": 6,
+    "title": "Buscador de Requisitos de Viaje para Mascotas",
+    "description": "Herramienta IA que automatiza la investigación de requisitos de viaje internacional para mascotas desde fuentes oficiales",
+    "complexity": "Intermediate",
+    "projectCategory": "AI Tools / Viajes",
+    "category": "nlp",
+    "github": "https://github.com/irivelez/PetTravelGuide",
+    "demo": ""
+  },
+  {
+    "id": 7,
     "title": "Bot de Listado Inmobiliario LATAM",
     "description": "Asistente IA que automatiza la recopilación de información inmobiliaria de vendedores LATAM no digitales mediante chat inteligente",
     "complexity": "Intermediate",

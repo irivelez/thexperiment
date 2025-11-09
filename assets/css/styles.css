@@ -779,6 +779,10 @@ a:hover {
   border-color: var(--accent-blue);
 }
 
+.experiment-card:nth-child(7) {
+  border-color: var(--accent-pink);
+}
+
 .experiment-card:hover {
   transform: translateY(-6px);
   box-shadow: 8px 8px 0 var(--deep-black);
@@ -806,6 +810,10 @@ a:hover {
 
 .experiment-card:nth-child(6):hover {
   box-shadow: 8px 8px 0 var(--accent-blue);
+}
+
+.experiment-card:nth-child(7):hover {
+  box-shadow: 8px 8px 0 var(--accent-pink);
 }
 
 .card-doodle {
@@ -843,6 +851,10 @@ a:hover {
 
 .experiment-card:nth-child(6) .card-doodle {
   background: var(--accent-blue);
+}
+
+.experiment-card:nth-child(7) .card-doodle {
+  background: var(--accent-pink);
 }
 
 /* Remove SVG icons entirely */

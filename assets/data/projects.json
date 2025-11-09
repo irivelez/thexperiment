@@ -51,6 +51,16 @@
   },
   {
     "id": 6,
+    "title": "Pet Travel Requirements Finder",
+    "description": "AI tool that automates research of international pet travel requirements from official government sources",
+    "complexity": "Intermediate",
+    "projectCategory": "AI Tools / Travel",
+    "category": "nlp",
+    "github": "https://github.com/irivelez/PetTravelGuide",
+    "demo": ""
+  },
+  {
+    "id": 7,
     "title": "LATAM Real Estate Listing Bot",
     "description": "AI-powered Telegram bot automating property information collection from non-digital LATAM sellers with smart data normalization",
     "complexity": "Intermediate",

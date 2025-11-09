@@ -48,5 +48,15 @@
     "category": "logistics",
     "github": "https://github.com/irivelez/tracking_system",
     "demo": ""
+  },
+  {
+    "id": 6,
+    "title": "Bot de Listado Inmobiliario LATAM",
+    "description": "Asistente IA que automatiza la recopilación de información inmobiliaria de vendedores LATAM no digitales mediante chat inteligente",
+    "complexity": "Intermediate",
+    "projectCategory": "AI Tools",
+    "category": "nlp",
+    "github": "https://github.com/irivelez/inmuebles_col_bot",
+    "demo": ""
   }
 ]

@@ -48,5 +48,15 @@
     "category": "logistics",
     "github": "https://github.com/irivelez/tracking_system",
     "demo": ""
+  },
+  {
+    "id": 6,
+    "title": "LATAM Real Estate Listing Bot",
+    "description": "AI-powered Telegram bot automating property information collection from non-digital LATAM sellers with smart data normalization",
+    "complexity": "Intermediate",
+    "projectCategory": "AI Tools",
+    "category": "nlp",
+    "github": "https://github.com/irivelez/inmuebles_col_bot",
+    "demo": ""
   }
 ]
